@@ -143,6 +143,7 @@ body {
 }
 
 .block-2-sub-text {
+    
     display: inline-block;
     position: absolute;
     left: 15%;
@@ -177,12 +178,13 @@ body {
 
 
 .block-2-b-1 {
+    
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
     font-size: 1rem;
     color: aliceblue;
     position: absolute;
-    bottom: 25%;
+    bottom: 20%;
     left: 15%;
     padding: 10px 20px 10px 20px;
     border: 2px solid aliceblue;
@@ -192,7 +194,8 @@ body {
 
 
 .block-2-b-1:hover {
-    background-color: rgb(163, 163, 163);
+    background-color: rgb(28, 26, 26);
+    transition: 0.1s ease-out;
 }
 
 
@@ -202,8 +205,8 @@ body {
     font-size: 1rem;
     color: aliceblue;
     position: absolute;
-    bottom: 25%;
-    left: 26%;
+    bottom: 20%;
+    left: 28%;
     padding: 10px 25px 10px 25px;
     border: 2px solid aliceblue;
     background-color: transparent;
@@ -211,7 +214,9 @@ body {
 }
 
 .block-2-b-2:hover {
-    background-color: rgb(163, 163, 163);
+    background-color: rgb(244, 244, 244);
+    color: #000000;
+    transition: 0.1s ease-out;
 }
 
 .block-3 {
